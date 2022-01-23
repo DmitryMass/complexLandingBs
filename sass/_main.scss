@@ -38,3 +38,32 @@
     flex-wrap: wrap;
   }
 }
+
+.section {
+  &-btn {
+    text-align: center;
+    display: none;
+    & p {
+      & > .btn {
+        box-shadow: none;
+        &:hover,
+        &:active,
+        &:focus {
+          background-color: $gold;
+        }
+      }
+    }
+  }
+}
+
+.section {
+  &-map,
+  &-adress,
+  &-number {
+    margin: 0;
+  }
+  &-map,
+  &-number {
+    margin-bottom: 5px;
+  }
+}

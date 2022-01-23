@@ -20,6 +20,7 @@ body {
 
 body {
   font-family: "Lato", sans-serif;
+  padding: 0 !important;
 }
 a {
   text-decoration: none;
@@ -40,6 +41,7 @@ li {
   margin: 0 auto;
   padding: 0 15px;
   box-sizing: content-box;
+  width: auto;
 }
 .container {
   @include container(1100px);
@@ -87,8 +89,9 @@ li {
 }
 @media screen and (max-width: 768px) {
   .flex-container {
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
   }
   .flex-nav {
     display: block;
@@ -123,7 +126,12 @@ li {
   .section2-registration {
     justify-content: center;
   }
-
+  .section-btn {
+    display: block;
+  }
+  .section-subtitle {
+    display: none;
+  }
   .section3-main {
     padding-bottom: 90px;
     padding-top: 30px;
