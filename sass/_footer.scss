@@ -1,0 +1,38 @@
+.footer {
+  &-main {
+    min-height: 272px;
+    background-color: #2d343c;
+    padding-top: 60px;
+    margin-top: -1px;
+  }
+  &-li {
+    margin-bottom: 15px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &-span {
+    font-weight: 700;
+    color: $gold;
+  }
+  &-href {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    &:hover {
+      color: antiquewhite;
+    }
+  }
+  &-li_object {
+    display: flex;
+    justify-content: flex-start;
+  }
+  &-object {
+    margin-right: 21px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

@@ -1,0 +1,116 @@
+.main {
+  &-wrap {
+    background-image: url(../../assets/images/header-bgc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 840px;
+    padding-top: 30px;
+  }
+  &-href {
+    font-size: 14px;
+    line-height: 16px;
+    display: inline-block;
+    transition: all 0.3s ease;
+
+    padding: 7px 20px;
+    border-radius: 8px;
+    &:hover {
+      background-color: $gray;
+      color: $honey;
+    }
+  }
+  &-logo_href {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+  &-logo_vop {
+    position: relative;
+    z-index: -1;
+  }
+}
+///////// BOOTSTRAP ////////
+////// MEDIA //////////
+
+//// Выпадающий List ////
+
+.reset-btn {
+  border: none;
+  /* min-width: 250px; */
+  /* min-height: 50px; */
+  margin-top: 0px;
+  background-color: #d4c17f;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+  font-family: "Raleway", sans-serif;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0;
+  margin-top: 0;
+  border: none;
+  margin-top: 80px;
+
+  &:hover {
+    background-color: gray;
+    color: honeydew;
+  }
+}
+
+.list-menu {
+  position: relative;
+
+  &:hover > .main-ul_list {
+    display: block;
+  }
+  &:focus > .main-ul_list {
+    display: block;
+  }
+  &:hover .list-object {
+    transform: rotate(-180deg);
+  }
+  &:focus .list-object {
+    transform: rotate(-180deg);
+  }
+}
+
+.main-ul_list {
+  display: none;
+  position: absolute;
+  top: 100%;
+  border-radius: 8px;
+  background-color: rgb(100, 99, 99);
+
+  & > li {
+    margin: 20px;
+    min-width: 150px;
+    cursor: pointer;
+  }
+
+  & > li > a {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    &:hover {
+      color: wheat;
+    }
+  }
+}
+.list-menu {
+  display: none;
+}
+
+.list-object {
+  margin-right: 7px;
+}
+// .main-btn_menu {
+//   font-size: 14px;
+//   line-height: 16px;
+//   display: inline-block;
+//   transition: all 0.3s ease;
+//   border-radius: 3px;
+//   padding: 7px 20px;
+//   color: white;
+// }

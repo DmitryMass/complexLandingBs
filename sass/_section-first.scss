@@ -1,0 +1,87 @@
+.section1 {
+  &-wrap {
+    background-color: $dark;
+    min-height: 1226px;
+    padding-top: 120px;
+    margin-top: -1px;
+  }
+  &-logo {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &-info {
+    max-width: 193px;
+    text-shadow: 1px 1px 5px wheat;
+    &:hover {
+      cursor: pointer;
+      text-shadow: 1px 1px 15px wheat;
+    }
+  }
+  &-txt {
+    color: $white;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+  }
+  &-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  &-home {
+    margin-top: 120px;
+  }
+  &-h2 {
+    color: $gold;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    font-family: "Playfair Display", serif;
+  }
+  &-img_1,
+  &-img_2,
+  &-img_3,
+  &-img_4 {
+    width: 535px;
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 50px;
+    padding-left: 50px;
+  }
+  &-img_1 {
+    background-image: url(../../assets/images/img-1.png);
+    margin-bottom: 30px;
+  }
+  &-img_2 {
+    background-image: url(../../assets/images/img-2.png);
+    margin-bottom: 30px;
+  }
+  &-img_3 {
+    background-image: url(../../assets/images/img-3.png);
+  }
+  &-img_4 {
+    background-image: url(../../assets/images/img-4.png);
+  }
+  &-apartments_title {
+    margin-bottom: 100px;
+  }
+  &-apartments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &-subname {
+    font-size: 24px;
+    line-height: 28px;
+    color: $white;
+    font-family: "Raleway", sans-serif;
+  }
+}

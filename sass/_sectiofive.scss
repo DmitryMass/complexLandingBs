@@ -1,0 +1,26 @@
+.section5 {
+  &-baseline {
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-reg {
+    padding-bottom: 180px;
+  }
+  &-h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: $gold;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 50px;
+  }
+}
+.input_1 {
+  margin-right: 0;
+}
+.s5-p {
+  margin: 0 0 0 0;
+}
+.s5-btn {
+  margin-top: 0;
+}

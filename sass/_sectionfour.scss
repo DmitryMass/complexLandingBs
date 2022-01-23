@@ -1,0 +1,23 @@
+.section4 {
+  &-main {
+    background-color: #242b33;
+    margin-top: -1px;
+  }
+  &-map {
+    width: 1110px;
+    height: 400px;
+  }
+  &-h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    font-family: "Playfair Display", serif;
+    color: $gold;
+    margin-bottom: 100px;
+  }
+  &-location {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 180px;
+  }
+}

@@ -1,0 +1,12 @@
+.section3 {
+  &-main {
+    background-color: #242b33;
+    min-height: 100%;
+    padding-bottom: 180px;
+  }
+  &-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
