@@ -166,6 +166,10 @@ script(src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js") */
   flex-wrap: wrap;
 }
 
+.section-obj {
+  margin-right: 10px;
+}
+
 .section-btn {
   text-align: center;
   display: none;
